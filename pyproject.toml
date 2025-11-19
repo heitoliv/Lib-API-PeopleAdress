@@ -1,6 +1,10 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "peopleadress-lib"
-version = "0.1.0"
+name = "peopleaddress_lib"                     # nome do pacote (sem '-') -> IMPORTANTE
+version = "0.1.1"
 description = "Modelos SQLModel e DTOs reutilizáveis para APIs FastAPI."
 authors = [
     { name = "Heitor Oliveira", email = "oliheitor189@gmail.com" }
@@ -15,5 +19,8 @@ dependencies = [
 ]
 
 [project.urls]
-homepage = "https://github.com/seurepositorio"
-repository = "https://github.com/seurepositorio"
+homepage = "https://github.com/heitoliv/Lib-API-PeopleAdress.git"
+repository = "https://github.com/heitoliv/Lib-API-PeopleAdress.git"
+
+[tool.setuptools.packages.find]
+include = ["peopleaddress_lib*"]
