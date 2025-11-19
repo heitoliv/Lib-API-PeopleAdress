@@ -1,0 +1,38 @@
+# --- AMBIENTE VIRTUAL ---
+.venv/
+.env/
+.envrc
+
+# --- PYTHON CACHE ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# --- CONFIGURAÇÕES DE BUILD ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- FERRAMENTAS DE DESENVOLVIMENTO ---
+.mypy_cache/
+.pytest_cache/
+coverage/
+.coverage
+htmlcov/
+
+# --- EDITORES/IDE ---
+.vscode/
+.idea/
+
+# --- LOGS ---
+*.log
+
+# --- ARQUIVOS DE SISTEMA ---
+.DS_Store
+Thumbs.db
+
+# --- DOCKER (se usar) ---
+/docker-data/
