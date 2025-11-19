@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "peopleaddress_lib"                     # nome do pacote (sem '-') -> IMPORTANTE
+name = "people_address_api_models"                     # nome do pacote (sem '-') -> IMPORTANTE
 version = "0.1.1"
 description = "Modelos SQLModel e DTOs reutilizáveis para APIs FastAPI."
 authors = [
@@ -22,5 +22,3 @@ dependencies = [
 homepage = "https://github.com/heitoliv/Lib-API-PeopleAdress.git"
 repository = "https://github.com/heitoliv/Lib-API-PeopleAdress.git"
 
-[tool.setuptools.packages.find]
-include = ["peopleaddress_lib*"]

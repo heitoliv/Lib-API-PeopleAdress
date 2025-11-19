@@ -1,4 +1,4 @@
 ## Usage
 
 ```bash
-from peopleadress_lib import Pessoa, PessoaCreate, EnderecoRead
+from people_address_api_models import Pessoa, PessoaCreate, EnderecoRead
